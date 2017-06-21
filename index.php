@@ -76,7 +76,7 @@ and will be back as soon as possible.
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("June 22, 2017 23:59:00").getTime();
+var countDownDate = new Date("June 22, 2017 23:59:59").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
@@ -94,7 +94,7 @@ var countdownfunction = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "Days: " + hours + "H: "
+    document.getElementById("demo").innerHTML = days + "Day: " + hours + "H: "
     + minutes + "m: " + seconds + "s";
     
     // If the count down is over, write some text 

@@ -1,0 +1,9 @@
+#RewriteEngine on
+
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.mangomark.com/$1 [R=301,L]
+
+#RewriteCond %{HTTP_HOST} ^mangomark.com$ [NC,OR]
+#RewriteCond %{HTTP_HOST} ^www.mangomark.com$
+#RewriteCond %{REQUEST_URI} !MangoMark/public/
+#RewriteRule (.*) /MangoMark/public/$1 [L]

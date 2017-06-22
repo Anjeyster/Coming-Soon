@@ -76,7 +76,7 @@ and will be back as soon as possible.
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("June 22, 2017 23:59:59").getTime();
+var countDownDate = new Date("June 23, 2017 15:37:59").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {

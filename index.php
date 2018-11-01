@@ -76,6 +76,7 @@ and will be back as soon as possible.
 
 <script>
 // Set the date we're counting down to
+	// the deadline should up set here
 var countDownDate = new Date("June 23, 2017 23:37:59").getTime();
 
 // Update the count down every 1 second
